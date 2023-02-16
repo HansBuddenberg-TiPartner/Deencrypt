@@ -120,9 +120,9 @@ def deencrypt(_crypto: str, _message: str, _secretKey: str) -> str:
 # _message: texto a encriptar/desencriptar
 # _secretKey: llave de encriptacion
 class main():
-  key = "finanzas2021finanzas2021finanzas"
-  user = "app_rocketbotGaf"
-  password = "rocket$#bGaf"
+  key = ""
+  user = ""
+  password = ""
   
   print("User:\t\t"+user+"\t-> "+ deencrypt('encrypt', user, key) )
   print("Password:\t"+password+"\t\t-> "+ deencrypt('encrypt', password, key) )
